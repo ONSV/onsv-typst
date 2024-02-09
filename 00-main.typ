@@ -148,7 +148,13 @@ Tabela criada com o gt (@test-tbl-gt)
 
 = Código
 
+Testando um bloco de código em R:
 
+```r
+sum <- function(x, y) {
+  x + y
+}
+```
 #pagebreak()
 
 #bibliography("refs.bib", style: "associacao-brasileira-de-normas-tecnicas")
