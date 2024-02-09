@@ -18,7 +18,7 @@
         \
         \
         
-        Elaborado no âmbito da Cooperação Técnica entre a Universidade Federal do Paraná e o Observatório Nacional de Segurança Viária (Acordo de Cooperação 92/2022).
+        Elaborado no âmbito da Cooperação Técnica entre a Universidade Federal do Paraná e o Observatório Nacional de Segurança Viária (Contrato PD&I 37/2023).
         \
         \
     
