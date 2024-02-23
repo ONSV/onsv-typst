@@ -71,9 +71,8 @@
     center, 
     text(
       10pt,
-      fill: rgb("#00496d"))[
-        Fonte: #cite(term, form: "prose")
-      ]
+      fill: rgb("#00496d")
+    )[Fonte: #term]
   )
 }
 
