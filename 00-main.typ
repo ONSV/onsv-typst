@@ -76,6 +76,13 @@
   )
 }
 
+#set table(
+  fill: (_, y) => if y == 0 { rgb("#00496d") },
+  stroke: (_, y) => if y == 0 { (bottom: silver + 1pt, top: silver + 1pt)}
+)
+
+#show table.cell.where(y: 0): set text(fill: silver)
+
 #include "02-expediente.typ"
 #include "03-metadados.typ"
 #include "04-sumario.typ"
@@ -107,7 +114,7 @@ Testando figura (@test-img)
   caption: [Teste de figura]
 ) <test-img>
 
-#fonte(<austroads_guide_2021>)
+#fonte(cite(<austroads_guide_2021>))
 
 #pagebreak()
 
@@ -120,13 +127,17 @@ Testando a tabela nativa do typst (@test-tbl)
 #figure(
   table(
     columns: 4,
-    [t], [1], [2], [3],
+    [t], [1],    [2],    [3],
     [y], [0.3s], [0.4s], [0.8s],
+    [x], [0.4s], [0.5s], [1.0s],
+    [x], [0.4s], [0.5s], [1.0s],
+    [x], [0.4s], [0.5s], [1.0s],
+    table.hline()
   ),
   caption: [Testando a tabela],
 ) <test-tbl>
 
-#fonte(<austroads_guide_2021>)
+#fonte(cite(<austroads_guide_2021>))
 
 == Tabela gt
 
@@ -134,13 +145,15 @@ Tabela criada com o gt (@test-tbl-gt)
 
 #figure(
   table(
+    [],
     image("/img/tbl-test.png", width: 90%),
-    stroke: none
+    stroke: none,
+    fill: none
   ),
   caption: [Testando a tabela do gt],
 ) <test-tbl-gt>
 
-#fonte(<austroads_guide_2021>)
+#fonte(cite(<austroads_guide_2021>))
 
 
 #pagebreak()
