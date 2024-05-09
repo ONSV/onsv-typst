@@ -77,14 +77,20 @@
 
   // Tabelas
   set table(
+    // Header em azul do OBS
     fill: (_, y) => if y == 0 { rgb("#00496d") },
-    stroke: (_, y) => if y == 0 { (bottom: silver + 1pt, top: silver + 1pt)}
-  )
-  show table.cell.where(y: 0): set text(fill: silver)
 
+    // Coloca uma linha cinza no topo e baixo do header
+    stroke: (_, y) => if y == 0 { (bottom: silver + 1pt, top: silver + 1pt) }
+  )
+
+  // Coloca a fonte do header em cinza negrito
+  show table.cell.where(y: 0): set text(fill: silver, weight: "bold")
+
+  // Deixa a fonte da tabela no tamanho 10pt
+  show table.cell: it => {text(it, size: 10pt)}
 
   // Folha de rosto
-
   page(
     header: none,
     footer: none
