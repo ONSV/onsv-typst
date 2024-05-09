@@ -183,6 +183,10 @@
       João Pedro Saraiva -- _Estagiário de Análise de Dados_\
 
       Isabella Tostes -- _Estagiária de Comunicação e Marketing_\
+
+      Paloma Eleutério -- _Estagiária de Análise de Dados_\
+
+      Arthur Noguti -- _Estagiário_
     ]
   )
 
