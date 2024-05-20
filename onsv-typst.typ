@@ -9,7 +9,7 @@
   // Config da página
   set page(
     paper: "a4",
-    margin: (x: 25mm, y: 30mm),
+    margin: (x: 30mm, y: 30mm),
     footer: [
       #stack(
         spacing: 0.5em,
