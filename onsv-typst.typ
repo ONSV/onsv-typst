@@ -186,7 +186,7 @@
 
       Paloma Eleutério -- _Estagiária de Análise de Dados_\
 
-      Arthur Noguti -- _Estagiário_
+      Arthur Noguti -- _Estagiário de Análise de Dados_
     ]
   )
 
